@@ -5,7 +5,7 @@ sudo yum install -y jq
 sudo yum install -y curl
 
 # Configure AppConfig Agent
-APP_ID="appconfigapp"
+APP_ID="appconfigapp2"
 PROFILE_ID="myprofile"
 CONFIG_VERSION="abc1234"
 ENV_ID="dev"

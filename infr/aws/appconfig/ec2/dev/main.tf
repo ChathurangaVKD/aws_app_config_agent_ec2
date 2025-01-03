@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "appconfig" {
-  source = "./modules/appconfig"
-  appconfig_application_name = "appconfigapp"
+  source = "./appconfig"
+  appconfig_application_name = "appconfigapp2"
   appconfig_profile_name     = "myprofile"
 }
