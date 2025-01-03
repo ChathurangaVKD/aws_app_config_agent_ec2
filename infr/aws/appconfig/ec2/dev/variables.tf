@@ -15,7 +15,7 @@ variable "key_name" {
 }
 
 variable "appconfig_application_name" {
-  default = "appconfigapp"
+  default = "appconfigapp2"
 }
 
 variable "appconfig_profile_name" {

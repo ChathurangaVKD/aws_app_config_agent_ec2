@@ -1,0 +1,5 @@
+/infr/aws/appconfig/ec2/dev/.terraform/
+/.idea/
+/infr/aws/appconfig/ec2/dev/.terraform.lock.hcl
+/infr/aws/appconfig/ec2/dev/terraform.tfstate
+/infr/aws/appconfig/ec2/dev/terraform.tfstate.backup
