@@ -1,6 +1,6 @@
 # Create Application for AppConfig
 resource "aws_appconfig_application" "appconfig_application" {
-  name = "appConfigAppDev"
+  name = "appConfigApplicationDevAgent"
 }
 
 # Create Configuration Profile
@@ -24,9 +24,9 @@ resource "aws_appconfig_hosted_configuration_version" "hosted_config_version" {
   configuration_profile_id = aws_appconfig_configuration_profile.appconfig_configuration_profile.configuration_profile_id
   content_type = "application/json"
   content = jsonencode({
-    "config1" = "config_value123",
-    "config2" = "config_value234"
-    "config3" = "config_value345"
+    "config1" = "config_value01",
+    "config2" = "config_value02"
+    "config3" = "config_value03"
   })
 }
 
